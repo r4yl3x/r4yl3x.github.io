@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: r4yl3x - writeup # the main title
+title: r4yl3x:// # the main title
 
-tagline: /home/r4yl3x/writeup # it will display as the sub-title
+tagline: /home/r4yl3x/writeups # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Detailed instructions, tutorials, and summaries of some of my projects can be found in this repository.
