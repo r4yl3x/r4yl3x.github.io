@@ -6,6 +6,7 @@ tags: SQLI PYTHON BLIND-SQLI
 categories: CTF
 date: 2024-02-02
 ---
+![vinylizer](/assets/images/vinylizer.png)
 ## Enumeration
 I'll begin with a Nmap scan
 ```shell
