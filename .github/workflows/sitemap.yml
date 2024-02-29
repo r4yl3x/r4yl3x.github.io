@@ -19,6 +19,8 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://r4yl3x.github.io
+        include-html: false
+        include-pdf: false
 
     - name: Commit and push
       run: |
