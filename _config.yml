@@ -165,6 +165,10 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
+  - scope:
+      path: googlefa05e1dc50a48ec4.html
+    values:
+      sitemap: false
 
 sass:
   style: compressed
