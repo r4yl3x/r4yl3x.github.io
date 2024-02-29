@@ -201,6 +201,22 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      categories:
+      tags:
+      author: raylex
+    posts:
+      description:
+      image:
+      categories:
+      tags:
+      author: raylex
+      published: false
+
 url: "https://r4yl3x.github.io"
 plugins:
   - jekyll-sitemap

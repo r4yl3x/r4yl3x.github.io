@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 6.4", ">= 6.4.2"
 gem 'jekyll-sitemap'
+gem 'jekyll-compose', group: [:jekyll_plugins]
 
 group :test do
   gem "html-proofer", "~> 4.4"
