@@ -201,6 +201,6 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+url: "https://r4yl3x.github.io"
 plugins:
   - jekyll-sitemap
-url: "https://r4yl3x.github.io"
